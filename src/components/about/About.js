@@ -16,7 +16,6 @@ const About = () => {
     return (
         <section id="about" className="p-4">
             <h2 className="text-2xl font-bold">Rodricko Wullur</h2>
-            
             <p>{about}</p>
         </section>
     );
