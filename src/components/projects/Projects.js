@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { ref, onValue } from "firebase/database";
-import { db } from "../FirebaseConfig";
+import { db } from "../../FirebaseConfig";
 
 const Projects = () => {
     const [projects, setProjects] = useState([]);

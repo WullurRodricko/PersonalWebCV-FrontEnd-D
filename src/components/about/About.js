@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { ref, onValue } from "firebase/database";
-import { db } from "../FirebaseConfig";
+import { db } from "../../FirebaseConfig";
 
 const About = () => {
     const [about, setAbout] = useState("");
@@ -15,7 +15,8 @@ const About = () => {
 
     return (
         <section id="about" className="p-4">
-            <h2 className="text-2xl font-bold">About Me</h2>
+            <h2 className="text-2xl font-bold">Rodricko Wullur</h2>
+            
             <p>{about}</p>
         </section>
     );

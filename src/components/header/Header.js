@@ -1,8 +1,8 @@
 const Header = () => {
     return (
-        <header className="bg-blue-600 text-white p-4">
+        <header className="bg-blue-600 text-white p-4 font-sans">
             <div className="container mx-auto flex justify-between items-center">
-                <h1 className="text-3xl font-bold">Personal CV </h1>
+                <h1 className="text-3xl font-bold">Personal CV</h1>
                 <nav>
                     <ul className="flex gap-4">
                         <li><a href="#about" className="hover:underline">About</a></li>

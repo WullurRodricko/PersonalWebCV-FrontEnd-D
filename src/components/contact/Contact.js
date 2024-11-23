@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { ref, push } from "firebase/database";
-import { db } from "../FirebaseConfig";
+import { db } from "../../FirebaseConfig";
 
 const Contact = () => {
     const [message, setMessage] = useState("");
